@@ -19,9 +19,17 @@ namespace calculator
 
         partial void CalculateButton_TouchUpInside(UIButton sender)
         {
-            ResultBox.Text = Calculator.getAnswer(ResultBox.Text).ToString();
+            try
+            {
+                ResultBox.Text = Calculator.getAnswer(ResultBox.Text).ToString();
+            }
+            catch(Exception ex)
+            {
+                new UIAlertView("Error", ex.Message, null, "Ok", null).Show();
+            }
             EnableButtons();
         }
+
 
         partial void PlusButton_TouchUpInside(UIButton sender)
         {
