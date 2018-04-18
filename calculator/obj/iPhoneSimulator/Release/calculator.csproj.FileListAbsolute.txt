@@ -1,0 +1,11 @@
+/Users/b/Projects/calculator/calculator/bin/iPhoneSimulator/Release/calculator.exe
+/Users/b/Projects/calculator/calculator/bin/iPhoneSimulator/Release/calculator.pdb
+/Users/b/Projects/calculator/calculator/obj/iPhoneSimulator/Release/ibtool/_BundleResourceWithLogicalName.items
+/Users/b/Projects/calculator/calculator/obj/iPhoneSimulator/Release/actool/_PartialAppManifest.items
+/Users/b/Projects/calculator/calculator/obj/iPhoneSimulator/Release/actool/_BundleResourceWithLogicalName.items
+/Users/b/Projects/calculator/calculator/obj/iPhoneSimulator/Release/coremlc/_PartialAppManifest.items
+/Users/b/Projects/calculator/calculator/obj/iPhoneSimulator/Release/coremlc/_BundleResourceWithLogicalName.items
+/Users/b/Projects/calculator/calculator/obj/iPhoneSimulator/Release/optimized/
+/Users/b/Projects/calculator/calculator/obj/iPhoneSimulator/Release/calculator.csproj.CoreCompileInputs.cache
+/Users/b/Projects/calculator/calculator/obj/iPhoneSimulator/Release/calculator.exe
+/Users/b/Projects/calculator/calculator/obj/iPhoneSimulator/Release/calculator.pdb

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_5" orientation="portrait">
+    <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -17,12 +17,12 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="197" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="95" y="218" width="46" height="47"/>
+                                <rect key="frame" x="48" y="90" width="46" height="47"/>
                                 <state key="normal" title="7"/>
                                 <constraints>
                                     <constraint id="2099" firstItem="197" firstAttribute="height" constant="47"/>
@@ -33,28 +33,28 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="198" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="95" y="273" width="46" height="47"/>
+                                <rect key="frame" x="48" y="145" width="46" height="47"/>
                                 <state key="normal" title="4"/>
                                 <connections>
                                     <action selector="FourButton_TouchUpInside:" destination="BYZ-38-t0r" id="2517" eventType="touchUpInside"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="199" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="157" y="273" width="46" height="47"/>
+                                <rect key="frame" x="110" y="145" width="46" height="47"/>
                                 <state key="normal" title="5"/>
                                 <connections>
                                     <action selector="FiveButton_TouchUpInside:" destination="BYZ-38-t0r" id="2518" eventType="touchUpInside"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="200" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="157" y="218" width="46" height="47"/>
+                                <rect key="frame" x="110" y="90" width="46" height="47"/>
                                 <state key="normal" title="8"/>
                                 <connections>
                                     <action selector="EightButton_TouchUpInside:" destination="BYZ-38-t0r" id="2521" eventType="touchUpInside"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="201" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="219" y="218" width="46" height="47"/>
+                                <rect key="frame" x="172" y="90" width="46" height="47"/>
                                 <state key="normal" title="9"/>
                                 <constraints/>
                                 <connections>
@@ -62,35 +62,35 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="202" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="219" y="273" width="46" height="47"/>
+                                <rect key="frame" x="172" y="145" width="46" height="47"/>
                                 <state key="normal" title="6"/>
                                 <connections>
                                     <action selector="SixButton_TouchUpInside:" destination="BYZ-38-t0r" id="2519" eventType="touchUpInside"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="203" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="95" y="328" width="46" height="47"/>
+                                <rect key="frame" x="48" y="200" width="46" height="47"/>
                                 <state key="normal" title="1"/>
                                 <connections>
                                     <action selector="OneButton_TouchUpInside:" destination="BYZ-38-t0r" id="2158" eventType="touchUpInside"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="204" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="157" y="328" width="46" height="47"/>
+                                <rect key="frame" x="110" y="200" width="46" height="47"/>
                                 <state key="normal" title="2"/>
                                 <connections>
                                     <action selector="TwoButton_TouchUpInside:" destination="BYZ-38-t0r" id="2159" eventType="touchUpInside"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="205" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="219" y="328" width="46" height="47"/>
+                                <rect key="frame" x="172" y="200" width="46" height="47"/>
                                 <state key="normal" title="3"/>
                                 <connections>
                                     <action selector="ThreeButton_TouchUpInside:" destination="BYZ-38-t0r" id="2516" eventType="touchUpInside"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="206" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="95" y="389" width="170" height="47"/>
+                                <rect key="frame" x="48" y="261" width="170" height="47"/>
                                 <state key="normal" title="0"/>
                                 <constraints>
                                     <constraint id="2144" firstItem="206" firstAttribute="width" constant="170"/>
@@ -101,7 +101,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="208" translatesAutoresizingMaskIntoConstraints="NO" textAlignment="right" clearsOnBeginEditing="YES" enabled="NO">
-                                <rect key="frame" x="95" y="169" width="216" height="30"/>
+                                <rect key="frame" x="48" y="41" width="216" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -109,30 +109,33 @@
                                     <constraint id="2097" firstItem="208" firstAttribute="height" constant="30"/>
                                     <constraint id="2098" firstItem="208" firstAttribute="width" constant="216"/>
                                 </constraints>
+                                <connections>
+                                    <action selector="BeginEditing:" destination="BYZ-38-t0r" id="3243" eventType="editingDidBegin"/>
+                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="290" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="273" y="218" width="46" height="47"/>
+                                <rect key="frame" x="226" y="90" width="46" height="47"/>
                                 <state key="normal" title="/"/>
                                 <connections>
                                     <action selector="DivideButton_TouchUpInside:" destination="BYZ-38-t0r" id="2523" eventType="touchUpInside"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="291" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="273" y="273" width="46" height="47"/>
+                                <rect key="frame" x="226" y="145" width="46" height="47"/>
                                 <state key="normal" title="x"/>
                                 <connections>
                                     <action selector="MultiplyButton_TouchUpInside:" destination="BYZ-38-t0r" id="2524" eventType="touchUpInside"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="292" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="273" y="328" width="46" height="47"/>
+                                <rect key="frame" x="226" y="200" width="46" height="47"/>
                                 <state key="normal" title="-"/>
                                 <connections>
                                     <action selector="MinusButton_TouchUpInside:" destination="BYZ-38-t0r" id="2525" eventType="touchUpInside"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="293" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="273" y="389" width="46" height="47"/>
+                                <rect key="frame" x="226" y="261" width="46" height="47"/>
                                 <state key="normal" title="+"/>
                                 <constraints>
                                     <constraint id="2148" firstItem="293" firstAttribute="height" constant="47"/>
@@ -143,7 +146,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="294" translatesAutoresizingMaskIntoConstraints="NO">
-                                <rect key="frame" x="95" y="451" width="224" height="47"/>
+                                <rect key="frame" x="48" y="323" width="224" height="47"/>
                                 <state key="normal" title="Calculate"/>
                                 <constraints>
                                     <constraint id="2152" firstItem="294" firstAttribute="height" constant="47"/>

@@ -77,6 +77,10 @@ namespace calculator
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton ZeroButton { get; set; }
 
+        [Action ("BeginEditing:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void BeginEditing (UIKit.UITextField sender);
+
         [Action ("CalculateButton_TouchUpInside:")]
         [GeneratedCode ("iOS Designer", "1.0")]
         partial void CalculateButton_TouchUpInside (UIKit.UIButton sender);
