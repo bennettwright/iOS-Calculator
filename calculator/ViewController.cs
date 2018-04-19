@@ -12,7 +12,7 @@ namespace calculator
         }
 
 
-        bool clear = false;
+
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
@@ -28,7 +28,7 @@ namespace calculator
             NineButton.TouchUpInside += CheckForClear;
         }
 
-
+        bool clear = false;
         void CheckForClear(object sender, EventArgs args)
         {
             if (clear)
