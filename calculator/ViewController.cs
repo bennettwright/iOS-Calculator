@@ -11,11 +11,12 @@ namespace calculator
             // Note: this .ctor should not contain any initialization logic.
         }
 
+
+
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
             // Perform any additional setup after loading the view, typically from a nib.
-
         }
 
         bool clear = false;
@@ -43,8 +44,6 @@ namespace calculator
             EnableButtons();
 
         }
-
-
 
         partial void PlusButton_TouchUpInside(UIButton sender)
         {
@@ -108,6 +107,7 @@ namespace calculator
 
         partial void SixButton_TouchUpInside(UIButton sender)
         {
+            CheckForClear();
             ResultBox.Text += '6';
         }
 
