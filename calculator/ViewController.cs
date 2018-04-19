@@ -11,15 +11,25 @@ namespace calculator
             // Note: this .ctor should not contain any initialization logic.
         }
 
+
+        bool clear = false;
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
             // Perform any additional setup after loading the view, typically from a nib.
-
+            OneButton.TouchUpInside += CheckForClear;
+            TwoButton.TouchUpInside += CheckForClear;
+            ThreeButton.TouchUpInside += CheckForClear;
+            FourButton.TouchUpInside += CheckForClear;
+            FiveButton.TouchUpInside += CheckForClear;
+            SixButton.TouchUpInside += CheckForClear;
+            SevenButton.TouchUpInside += CheckForClear;
+            EightButton.TouchUpInside += CheckForClear;
+            NineButton.TouchUpInside += CheckForClear;
         }
 
-        bool clear = false;
-        void CheckForClear()
+
+        void CheckForClear(object sender, EventArgs args)
         {
             if (clear)
                 ResultBox.Text = "";
@@ -43,8 +53,6 @@ namespace calculator
             EnableButtons();
 
         }
-
-
 
         partial void PlusButton_TouchUpInside(UIButton sender)
         {
@@ -90,19 +98,16 @@ namespace calculator
 
         partial void NineButton_TouchUpInside(UIButton sender)
         {
-            CheckForClear();
             ResultBox.Text += '9';
         }
 
         partial void EightButton_TouchUpInside(UIButton sender)
         {
-            CheckForClear();
             ResultBox.Text += '8';
         }
 
         partial void SevenButton_TouchUpInside(UIButton sender)
         {
-            CheckForClear();
             ResultBox.Text += '7';
         }
 
@@ -113,37 +118,31 @@ namespace calculator
 
         partial void FiveButton_TouchUpInside(UIButton sender)
         {
-            CheckForClear();
             ResultBox.Text += '5';
         }
 
         partial void FourButton_TouchUpInside(UIButton sender)
         {
-            CheckForClear();
             ResultBox.Text += '4';
         }
 
         partial void ThreeButton_TouchUpInside(UIButton sender)
         {
-            CheckForClear();
             ResultBox.Text += '3';
         }
 
         partial void TwoButton_TouchUpInside(UIButton sender)
         {
-            CheckForClear();
             ResultBox.Text += '2';
         }
 
         partial void OneButton_TouchUpInside(UIButton sender)
         {
-            CheckForClear();
             ResultBox.Text += '1';
         }
 
         partial void ZeroButton_TouchUpInside(UIButton sender)
         {
-            CheckForClear();
             ResultBox.Text += '0';
         }
 
